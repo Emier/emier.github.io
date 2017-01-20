@@ -1,1 +1,534 @@
-This is a HTML Files.
+<!DOCTYPE html>
+<html lang="zh-TW" dir="ltr" class="tm-background">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>UIkit</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
+
+    <link id="data-uikit-theme" rel="stylesheet" href="./mitikit/mitikit.css">
+    <link id="data-uikit-theme" rel="stylesheet" href="./mitikit/Material_Design_Color.css">
+
+    <script src="./mitikit/library/jquery/jquery.js"></script>
+    <script src="./mitikit/library/uikit/js/uikit.js"></script>
+
+    <style>
+        .tm-totop-scroller-fixed>a {
+            border-radius: 3px 3px 0 0;
+            background: #fff;
+        }
+
+        .tm-totop-scroller-fixed {
+            position: relative;
+        }
+
+        body {
+            border-radius: 6px;
+        }
+
+        section {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+        }
+    </style>
+
+</head>
+
+<body class="tm-background">
+    <nav class="tm-navbar uk-navbar uk-navbar-attached">
+        <div class="uk-container uk-container-center">
+
+            <a class="uk-navbar-brand uk-hidden-small" href="index.html">
+                <img class="uk-margin uk-margin-remove" src="images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit">
+            </a>
+            <div class="uk-navbar-flip">
+            <ul class="uk-navbar-nav uk-hidden-small">
+                <li><a href="about.html">事業概要</a>
+                </li>
+                <li class="uk-parent" data-uk-dropdown="{}">
+                    <a href="service.html">服務內容</a>
+                    <div class="uk-dropdown uk-dropdown-navbar">
+                        <ul class="uk-nav uk-nav-navbar">
+                            <li><a href="service.html">服務內容</a>
+                            </li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="order.html">委託方法</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="works.html">實際成果</a>
+                </li>
+                <li><a href="#">聯繫</a>
+                </li>
+                <li class="uk-parent" data-uk-dropdown="{}">
+                    <a href="blog.html">部落格</a>
+                    <div class="uk-dropdown uk-dropdown-navbar">
+                        <ul class="uk-nav uk-nav-navbar">
+                            <li><a href="#">Facebook</a>
+                            </li>
+                            <li><a href="#">Google+</a>
+                            </li>
+                            <li><a href="#">Item</a>
+                            </li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">E-Mail</a>
+                            </li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="uikit_overview.html">UiKit Overview</a>
+                            </li>
+                            <li><a href="uikit_grid.html">UiKit Grid</a>
+                            </li>
+                            <li class="uk-nav-header">Header</li>
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+            </div>
+            <a href="#tm-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+
+            <div class="uk-navbar-brand uk-navbar-center uk-visible-small">
+                <img src="images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit">
+            </div>
+
+        </div>
+    </nav>
+
+    <header></header>
+
+    <section class="tm-section tm-section-color-1 tm-section-colored">
+        <div class="uk-container uk-container-center uk-text-center">
+
+            <img class="tm-logo" src="images/logo_uikit_large.png" width="281" height="217" title="UIkit" alt="UIkit">
+
+            <p class="uk-text-large">獨立運作的設計工作室
+                <br class="uk-hidden-small">與您攜手創造未來</p>
+
+            <a class="uk-button tm-button-service">服務內容</a>
+
+            <ul class="tm-subnav uk-subnav">
+                <li><a href="#">關於米茶小舖</a>
+                </li>
+                <li><a href="#">關於委託設計</a>
+                </li>
+                <li><a href="#">關於解決策略</a>
+                </li>
+            </ul>
+
+            <ul class="tm-subnav uk-subnav">
+                <li><a href="#"><i class="uk-icon-star"></i> Facebook Fans</a>
+                </li>
+                <li><a href="#"><i class="uk-icon-code-fork"></i> Blogger</a>
+                </li>
+                <li><a href="#"><i class="uk-icon-google-plus"></i> Community</a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="tm-section tm-section-color-2 tm-section-colored">
+        <div class="uk-container uk-container-center uk-text-center">
+            <div class="uk-grid uk-grid-divider" data-uk-grid-margin>
+                <div class="uk-width-1-1 uk-width-medium-1-3">
+                    <div class="uk-panel">
+                        <ul class="uk-list uk-list-line">
+                            <li>服務內容</li>
+                            <li>實際成果</li>
+                            <li>委託方法</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-width-medium-1-3">
+                    <div class="uk-panel">
+                        <ul class="uk-list uk-list-line">
+                            <li>服務內容</li>
+                            <li>實際成果</li>
+                            <li>委託方法</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="uk-width-medium-1-3">
+                    <div class="uk-panel">
+                        <ul class="uk-list uk-list-line">
+                            <li>服務內容</li>
+                            <li>實際成果</li>
+                            <li>委託方法</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    <section class="tm-section tm-section-color-2 tm-section-colored">
+
+        <div class="uk-container uk-container-center uk-text-center">
+
+            <h1 class="uk-heading-large">Love the World</h1>
+
+            <p class="uk-text-large">生命就是不斷的提問與追尋
+                <br class="uk-hidden-small">使未來能更美好</p>
+
+            <div class="uk-grid" data-uk-grid-margin>
+
+                <div class="uk-width-medium-1-4">
+                    <div class="uk-panel">
+                        <img class="tm-image-pull" src="images/icon_less.svg" width="200" height="140" alt="LESS">
+                        <h2 class="uk-margin-top-remove">品牌推廣</h2>
+                        <p>當然，如果結合品牌，企業形象的崛起，以提高服務質量，您將能夠產生一個良性循環的公司。</p>
+                    </div>
+                </div>
+
+                <div class="uk-width-medium-1-4">
+                    <div class="uk-panel">
+                        <img class="tm-image-pull" src="images/icon_components.svg" width="200" height="140" alt="Components">
+                        <h2 class="uk-margin-top-remove">印務構成</h2>
+                        <p>如標識，海報，宣傳冊，報紙廣告，傳單，明信片，名片，我們有廣泛的生產什麼承諾拉到質量。</p>
+                    </div>
+                </div>
+
+                <div class="uk-width-medium-1-4">
+                    <div class="uk-panel">
+                        <img class="tm-image-pull" src="images/icon_themes.svg" width="200" height="140" alt="Themes">
+                        <h2 class="uk-margin-top-remove">插畫描繪</h2>
+                        <p>UIkit's very basic style can be extended with themes and is easy to customize to create your own look.</p>
+                    </div>
+                </div>
+
+                <div class="uk-width-medium-1-4">
+                    <div class="uk-panel">
+                        <img class="tm-image-pull" src="images/icon_responsive.svg" width="200" height="140" alt="Responsive">
+                        <h2 class="uk-margin-top-remove">網站建置</h2>
+                        <p>業務涉及到網站製作，從網站，如網站建設由CMS設計的編碼，將產生一個網站，以滿足廣大客戶的需求。</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+-->
+
+    <!--
+    <section class="tm-section tm-section-color-white z-depth-1">
+        <div class="uk-container uk-container-center uk-text-center">
+            <h1 class="tm-margin-large-bottom">Love the Live</h1>
+            <div class="uk-grid tm-grid-margin-large" data-uk-grid-match="{target:'.uk-panel'}" data-uk-grid-margin>
+
+                <div class="uk-width-medium-1-3">
+                    <a class="uk-panel tm-panel-link" href="#">
+                        <div class="tm-icon"><i class="uk-icon-twitter uk-icon-large"></i>
+                        </div>
+                        <h2>Facebook Fans</h2>
+                        <p>我們的粉絲專頁，您會在這裡發現有趣的事物與相關訊息。</p>
+                    </a>
+                </div>
+
+                <div class="uk-width-medium-1-3">
+                    <a class="uk-panel tm-panel-link" href="#">
+                        <div class="tm-icon"><i class="uk-icon-github-alt uk-icon-large"></i>
+                        </div>
+                        <h2>Google Blogger</h2>
+                        <p>我們的官方部落格，擁有與我們相關的一切資訊，提供新穎的技巧與趨勢動態。</p>
+                    </a>
+                </div>
+
+                <div class="uk-width-medium-1-3">
+                    <a class="uk-panel tm-panel-link" href="#">
+                        <div class="tm-icon"><i class="uk-icon-google-plus uk-icon-large"></i>
+                        </div>
+                        <h2>Google+ Community</h2>
+                        <p>我們的專案社群，提供設計開發案例與社群討論。</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--
+    <section class="tm-section tm-section-color-2 tm-section-colored">
+        <div class="uk-container uk-container-center uk-text-center">
+
+            <h1 class="uk-heading-large uk-margin-bottom-remove">We Love Job</h1>
+
+            <p class="uk-text-large">我們熱愛有趣的設計與新奇的領域
+                <br class="uk-hidden-small" />無論是大公司、小企業或一位擁有偉大理想的實踐家，均以相同的態度理念幫助您超越目標...</p>
+
+            <div class="uk-grid uk-grid-divider" data-uk-grid-margin>
+
+                <div class="uk-width-1-1 uk-width-medium-1-3">
+                    <div class="uk-panel">
+                        <h2>經驗領域</h2>
+                        <p>UIkit is absolutely free of charge and you can use, copy, merge, publish and distribute the framework without any limitations.</p>
+                    </div>
+                </div>
+
+                <div class="uk-width-medium-1-3">
+                    <div class="uk-panel">
+                        <h2>技術支援</h2>
+                        <p>提供有效可行的解決方案、概念發想、印務技術、網站之前後端建置、插畫繪製等...</p>
+                    </div>
+                </div>
+
+                <div class="uk-width-medium-1-3">
+                    <div class="uk-panel">
+                        <h2>概念發想</h2>
+                        <p>我們將與您成為某種程度的夥伴關係，這意味著我們所努力的是一項協作投資，而非僅止於交易。</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+-->
+
+    <div class="tm-totop-scroller-fixed uk-text-center uk-hidden-small">
+        <a href="#" class="uk-button" data-uk-smooth-scroll>TOP</a>
+    </div>
+
+    <footer class="tm-footer">
+        <div class="uk-container uk-container-center uk-text-center">
+
+            <p class="uk-panel">生命就是不斷的提問與追尋使未來能更美好</p>
+
+            <ul class="uk-subnav uk-subnav-line">
+                <li><a href="#">關於</a>
+                </li>
+                <li><a href="#">作品</a>
+                </li>
+                <li><a href="#">雲端資源</a>
+                </li>
+                <li><a href="#">部落格</a>
+                </li>
+                <li><a href="#">聯絡</a>
+                </li>
+            </ul>
+
+            <div class="uk-panel">
+                <p>Made by <a href="#">mitishop</a> with love and caffeine.
+                    <br class="uk-hidden-small">Licensed under <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
+                <p data-uikit-version>Web power by Google Blogger and UiKit</p>
+                <a href="index.html">
+                    <img src="images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit">
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <div id="tm-offcanvas" class="uk-offcanvas">
+
+        <div class="uk-offcanvas-bar">
+
+            <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{ multiple: true }">
+                <li class="uk-parent"><a href="#">Documentation</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/documentation_get-started.html">Get started</a>
+                        </li>
+                        <li><a href="docs/documentation_how-to-customize.html">How to customize</a>
+                        </li>
+                        <li><a href="docs/documentation_layouts.html">Layout examples</a>
+                        </li>
+                        <li><a href="docs/components.html">Components</a>
+                        </li>
+                        <li><a href="docs/addons.html">Add-ons</a>
+                        </li>
+                        <li><a href="docs/documentation_project-structure.html">Project structure</a>
+                        </li>
+                        <li><a href="documentation_less-sass.html">Less &amp; Sass files</a>
+                        </li>
+                        <li><a href="docs/documentation_create-a-theme.html">Create a theme</a>
+                        </li>
+                        <li><a href="docs/documentation_create-a-style.html">Create a style</a>
+                        </li>
+                        <li><a href="docs/documentation_customizer-json.html">Customizer.json</a>
+                        </li>
+                        <li><a href="docs/documentation_javascript.html">Javascript</a>
+                        </li>
+                        <li><a href="docs/documentation_custom-prefix.html">Custom prefix</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-nav-header">Components</li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-wrench"></i> Defaults</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/base.html">Base</a>
+                        </li>
+                        <li><a href="docs/print.html">Print</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i> Layout</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/grid.html">Grid</a>
+                        </li>
+                        <li><a href="docs/panel.html">Panel</a>
+                        </li>
+                        <li><a href="docs/article.html">Article</a>
+                        </li>
+                        <li><a href="docs/comment.html">Comment</a>
+                        </li>
+                        <li><a href="docs/utility.html">Utility</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i> Navigations</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/nav.html">Nav</a>
+                        </li>
+                        <li><a href="docs/navbar.html">Navbar</a>
+                        </li>
+                        <li><a href="docs/subnav.html">Subnav</a>
+                        </li>
+                        <li><a href="docs/breadcrumb.html">Breadcrumb</a>
+                        </li>
+                        <li><a href="docs/pagination.html">Pagination</a>
+                        </li>
+                        <li><a href="docs/tab.html">Tab</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-check"></i> Elements</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/list.html">List</a>
+                        </li>
+                        <li><a href="docs/description-list.html">Description list</a>
+                        </li>
+                        <li><a href="docs/table.html">Table</a>
+                        </li>
+                        <li><a href="docs/form.html">Form</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> Common</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/button.html">Button</a>
+                        </li>
+                        <li><a href="docs/icon.html">Icon</a>
+                        </li>
+                        <li><a href="docs/close.html">Close</a>
+                        </li>
+                        <li><a href="docs/badge.html">Badge</a>
+                        </li>
+                        <li><a href="docs/alert.html">Alert</a>
+                        </li>
+                        <li><a href="docs/thumbnail.html">Thumbnail</a>
+                        </li>
+                        <li><a href="docs/overlay.html">Overlay</a>
+                        </li>
+                        <li><a href="docs/progress.html">Progress</a>
+                        </li>
+                        <li><a href="docs/text.html">Text</a>
+                        </li>
+                        <li><a href="docs/animation.html">Animation</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i> JavaScript</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/dropdown.html">Dropdown</a>
+                        </li>
+                        <li><a href="docs/modal.html">Modal</a>
+                        </li>
+                        <li><a href="docs/offcanvas.html">Off-canvas</a>
+                        </li>
+                        <li><a href="docs/switcher.html">Switcher</a>
+                        </li>
+                        <li><a href="docs/toggle.html">Toggle</a>
+                        </li>
+                        <li><a href="docs/tooltip.html">Tooltip</a>
+                        </li>
+                        <li><a href="docs/scrollspy.html">Scrollspy</a>
+                        </li>
+                        <li><a href="docs/smooth-scroll.html">Smooth scroll</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-nav-header">Add-ons</li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i> Layout</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/addons_grid.html">Grid</a>
+                        </li>
+                        <li><a href="docs/addons_flex.html">Flex</a>
+                        </li>
+                        <li><a href="docs/addons_cover.html">Cover</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i> Navigations</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/addons_dotnav.html">Dotnav</a>
+                        </li>
+                        <li><a href="docs/addons_slidenav.html">Slidenav</a>
+                        </li>
+                        <li><a href="docs/addons_pagination.html">Pagination</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> Common</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/addons_caption.html">Caption</a>
+                        </li>
+                        <li><a href="docs/addons_form-advanced.html">Form advanced</a>
+                        </li>
+                        <li><a href="docs/addons_form-file.html">Form file</a>
+                        </li>
+                        <li><a href="docs/addons_form-password.html">Form password</a>
+                        </li>
+                        <li><a href="docs/addons_form-select.html">Form select</a>
+                        </li>
+                        <li><a href="docs/addons_placeholder.html">Placeholder</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i> JavaScript</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="docs/addons_lightbox.html">Lightbox</a>
+                        </li>
+                        <li><a href="docs/addons_autocomplete.html">Autocomplete</a>
+                        </li>
+                        <li><a href="docs/addons_datepicker.html">Datepicker</a>
+                        </li>
+                        <li><a href="docs/addons_htmleditor.html">HTML editor</a>
+                        </li>
+                        <li><a href="docs/addons_slideshow.html">Slideshow</a>
+                        </li>
+                        <li><a href="docs/addons_accordion.html">Accordion</a>
+                        </li>
+                        <li><a href="docs/addons_notify.html">Notify</a>
+                        </li>
+                        <li><a href="docs/addons_search.html">Search</a>
+                        </li>
+                        <li><a href="docs/addons_nestable.html">Nestable</a>
+                        </li>
+                        <li><a href="docs/addons_sortable.html">Sortable</a>
+                        </li>
+                        <li><a href="docs/addons_sticky.html">Sticky</a>
+                        </li>
+                        <li><a href="docs/addons_timepicker.html">Timepicker</a>
+                        </li>
+                        <li><a href="docs/addons_upload.html">Upload</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="showcase/index.html">Showcase</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
